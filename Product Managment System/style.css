@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+body {
+  font-family: "Poppins";
+  color: white;
+  background-color: #1f2937;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+input {
+  color: #939596;
+  background-color: #374151;
+  border-radius: 5px;
+  border: none;
+  height: 40px;
+  margin: 5px 5px;
+}
+
+button {
+  color: white;
+  background-color: #2563eb;
+  border-radius: 5px;
+  border: none;
+  height: 40px;
+  margin: 5px 5px;
+}
+
+.details {
+  display: flex;
+}
+
+.details input {
+  width: calc(50% - 10px);
+}
+
+#create,
+#search,
+#deleteAll {
+  width: calc(100% - 10px);
+}
+
+.value {
+  display: flex;
+}
+
+.value input {
+  width: calc(33.33% - 10px);
+}
+
+.value button {
+  width: calc(16% - 10px);
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search button {
+  width: 50%;
+}
+
+table {
+  width: calc(100% - 10px);
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #1f2937;
+}
+
+thead th {
+  background-color: #374151;
+  color: 939596;
+  padding: 15px;
+}
+
+tbody td {
+  padding: 10px;
+  border: 1px solid #333;
+  color: #f1f1f1;
+  text-align: center;
+}
+
+#update {
+  background-color: #c98402;
+  width: 100%;
+}
+#update:hover {
+  background-color: #f5a105;
+}
+
+#delete {
+  background-color: #d10024;
+  width: 100%;
+}
+#delete:hover {
+  background-color: #fc022b;
+}
+
+.hidden {
+  display: none;
+}
