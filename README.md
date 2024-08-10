@@ -5,9 +5,6 @@ A user-friendly web application for efficient product management featuring CRUD 
 
 ➲ **Used Technologies:**
 - Frontend: JavaScript - HTML/HTML5 - CSS/CSS3 - Git
-
-➲ **Demo (Live Preview):** <a href="https://github.com/Omar-Gihad/Product-Managment-System.git" target="_blank">https://github.com/Omar-Gihad/Product-Managment-System.git</a> 
-
 <br>
 
 ## Key Features:
