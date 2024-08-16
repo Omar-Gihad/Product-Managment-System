@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
   </head>
   <body>
     <h1>Crud</h1>
-    <h3>Product managment system</h3>
-    <!-- <form action=""> -->
+    <h3>Product management system</h3>
 
     <div class="details">
       <input type="text" placeholder="Title" id="title" />
@@ -31,13 +30,14 @@
     <input onkeyup="searchData(this.value)" type="text" placeholder="Search" name="" id="search" />
 
     <div class="search">
-      <button onclick="getSearchState(this.id)" id="searchByTitle">search By Title</button>
-      <button onclick="getSearchState(this.id)" id="searchByCategory">search By Category</button>
+      <button onclick="getSearchState(this.id)" id="searchByTitle">Search By Title</button>
+      <button onclick="getSearchState(this.id)" id="searchByCategory">Search By Category</button>
     </div>
 
     <button id="deleteAll">Delete All</button>
-<!-- </form> -->
-    <table>
+
+    <div class="table-container">
+      <table>
         <thead>
           <tr>
             <th>ID</th>
