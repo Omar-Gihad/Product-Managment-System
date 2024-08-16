@@ -33,7 +33,7 @@ const getTotal = function () {
     total.innerHTML = sum;
     total.style.backgroundColor = "#036e03";
   } else {
-    total.innerHTML = `Invalid price !`;
+    total.innerHTML = `Invalid`;
     total.style.backgroundColor = "#d10024";
   }
 };
