@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 
 body {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   color: white;
   background-color: #1f2937;
+  margin: 0;
+  padding: 20px;
 }
 
-h1,
-h3 {
+h1, h3 {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 input {
@@ -18,6 +20,7 @@ input {
   border: none;
   height: 40px;
   margin: 5px 5px;
+  padding: 0 10px;
 }
 
 button {
@@ -27,53 +30,56 @@ button {
   border: none;
   height: 40px;
   margin: 5px 5px;
-}
-
-.details {
-  display: flex;
-}
-
-.details input {
-  width: calc(50% - 10px);
-}
-
-#create,
-#search,
-#deleteAll {
+  cursor: pointer;
   width: calc(100% - 10px);
 }
 
-.value {
+button:hover {
+  opacity: 0.9;
+}
+
+.details, .value {
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-.value input {
-  width: calc(33.33% - 10px);
+.details input, .value input {
+  flex: 1 1 calc(33.33% - 20px);
+  min-width: 150px;
 }
 
-.value button {
-  width: calc(16% - 10px);
+#create, #search, #deleteAll {
+  width: calc(100% - 10px);
+  margin-top: 10px;
 }
 
 .search {
   display: flex;
-  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
 }
 
 .search button {
-  width: 50%;
+  flex: 1;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 20px;
 }
 
 table {
-  width: calc(100% - 10px);
+  width: 100%;
   border-collapse: collapse;
-  margin-top: 20px;
   background-color: #1f2937;
+  min-width: 600px;
 }
 
 thead th {
   background-color: #374151;
-  color: 939596;
+  color: #939596;
   padding: 15px;
 }
 
@@ -86,20 +92,47 @@ tbody td {
 
 #update {
   background-color: #c98402;
-  width: 100%;
 }
+
 #update:hover {
   background-color: #f5a105;
 }
 
 #delete {
   background-color: #d10024;
-  width: 100%;
 }
+
 #delete:hover {
   background-color: #fc022b;
 }
 
-.hidden {
-  display: none;
+@media (max-width: 600px) {
+  thead {
+    display: none;
+  }
+
+  tbody, tr, td {
+    display: block;
+    width: 100%;
+  }
+
+  tr {
+    margin-bottom: 10px;
+  }
+
+  td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+  }
+
+  td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 10px;
+    font-weight: bold;
+    text-align: left;
+  }
 }
