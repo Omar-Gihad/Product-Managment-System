@@ -75,6 +75,7 @@ create.addEventListener("click", function () {
     count.classList.remove("hidden");
     create.innerHTML = "Create";
     state = "create";
+    clearData();
   }
 
   //Save element to local storage
