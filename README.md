@@ -7,7 +7,7 @@ A user-friendly web application for efficient product management featuring CRUD 
 - Frontend: JavaScript - HTML/HTML5 - CSS/CSS3 - Git
 - Libraries & Frameworks: Bootstrap - Font Awesome - Popper.js
 
-➲ **Demo (Live Preview):** <a href="https://omar-gihad.github.io/Product-Managment-System/Product%20Managment%20System/" target="_blank">https://omar-gihad.github.io/Product-Managment-System/Product%20Managment%20System/</a> 
+➲ **Demo (Live Preview):** <a href="https://omar-gihad.github.io/Product-Managment-System/index" target="_blank">https://omar-gihad.github.io/Product-Managment-System/index</a> 
 
 <br>
 
