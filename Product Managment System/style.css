@@ -111,7 +111,7 @@ tbody td {
   background-color: #fc022b;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   thead {
     display: none;
   }
@@ -140,4 +140,4 @@ tbody td {
     font-weight: bold;
     text-align: left;
   }
-}
+} */
