@@ -23,8 +23,8 @@ input {
   border-radius: 5px;
   border: none;
   height: 40px;
-  margin: 5px 5px;
-  padding: 0 10px;
+  margin: 8px 5px;
+  /* padding: 10px 10px; */
 }
 
 button {
@@ -33,7 +33,7 @@ button {
   border-radius: 5px;
   border: none;
   height: 40px;
-  margin: 5px 5px;
+  margin: 8px 5px;
   cursor: pointer;
   width: calc(100% - 10px);
 }
@@ -45,23 +45,23 @@ button:hover {
 .details, .value {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  /* gap: 10px; */
 }
 
 .details input, .value input {
-  flex: 1 1 calc(33.33% - 20px);
+  flex: 1 1 calc(25% - 20px);
   min-width: 150px;
 }
 
 #create, #search, #deleteAll {
   width: calc(100% - 10px);
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .search {
   display: flex;
-  gap: 10px;
-  margin-top: 10px;
+  /* gap: 10px; */
+  margin-top: 8px;
 }
 
 .search button {
